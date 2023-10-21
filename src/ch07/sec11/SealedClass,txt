@@ -1,0 +1,12 @@
+기본적으로 final 클래스를 제외한 모든 클래스는 부모 클래스가 될 수 있음
+
+그넫 이제 java15부터는 무분별한 자식 클래스 생성을 방지하기 위해
+봉인된(sealed) 클래스가 도입됨
+
+다음과 같이 Person의 자식 클래스는 Employee 와 Manager만 가능하고, 그 이외는
+자식 클래스가 될 수 없도록 Person을 봉인된 클래스로 선언 할 수 있음
+--> public sealed class Person permits Employee, Manger {...}
+
+sealed 키워드를 사용하면 permits 키워드 뒤에 상속 가능한 자식 클래스를 지정해야함.
+지정된 클래스들은 final 또는 non-sealed 키워드를 같이 선언 하거나 sealed 키워드를 사용해 봉인 클래스로 선언 해야함
+
