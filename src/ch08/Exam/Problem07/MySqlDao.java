@@ -1,4 +1,4 @@
-package Exam.Problem07;
+package ch08.Exam.Problem07;
 
 public class MySqlDao implements DataAccessObject{
     @Override

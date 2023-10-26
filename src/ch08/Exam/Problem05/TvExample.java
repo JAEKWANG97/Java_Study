@@ -1,4 +1,4 @@
-package Exam.Problem05;
+package ch08.Exam.Problem05;
 
 public class TvExample {
     public static void main(String[] args) {

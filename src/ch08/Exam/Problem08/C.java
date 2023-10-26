@@ -1,4 +1,4 @@
-package Exam.Problem08;
+package ch08.Exam.Problem08;
 
 public class C implements A {
     @Override

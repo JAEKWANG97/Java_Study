@@ -1,4 +1,4 @@
-package Exam.Problem08;
+package ch08.Exam.Problem08;
 
 public class Example {
     public static void action(A a){
@@ -9,6 +9,5 @@ public class Example {
 
     public static void main(String[] args) {
         action(new B());
-        action(new C());
-    }
+        action(new C());    }
 }

@@ -1,4 +1,4 @@
-package Exam.Problem06;
+package ch08.Exam.Problem06;
 
 public class Cat implements Soundable{
     @Override
