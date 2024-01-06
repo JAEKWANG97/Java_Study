@@ -5,7 +5,7 @@ public class PromotionExample {
         //자동 타입 변환
         byte byteValue = 10;
         int intValue = byteValue;
-        System.out.println("intValue: "+intValue);
+        System.out.println("intValue: " + intValue);
 
         char charValue = '가';
         intValue = charValue;
@@ -22,8 +22,7 @@ public class PromotionExample {
 
         floatValue = 100.5F;
         double doubleValue = floatValue;
-        System.out.println("doubleValue "+doubleValue);
-
+        System.out.println("doubleValue " + doubleValue);
 
 
     }

@@ -9,7 +9,7 @@ public class CharExample {
         char c4 = 44032;  //유니코드 직접 저장
 
         System.out.println(c1);
-        System.out.println(c2);
+        //System.out.println(c2);
         System.out.println(c3);
         System.out.println(c4);
 

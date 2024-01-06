@@ -9,14 +9,6 @@ public class Main {
         int y = 2;
         int result = x + 7;
         System.out.println(result); //콘솔에 변수의 값을 출력 하는 println() 메소드 호출
-        //result = 8
-
-        result =
-        x + y;
-
-        x = 1; y = 2;
-
-        System.out.println(result);
-
+        int n = 12/5;
     }
 }
