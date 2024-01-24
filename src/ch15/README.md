@@ -171,3 +171,9 @@ while(iterator.hasNext()){
 Map<K, V>map = new HashMap<K, V>();
 ```
 
+
+15.5 검색 기능을 강화시킨 컬렉션
+
+컬렉션 프레임 워크는 검색 기능을 강화시킨 TreeSet과 TreeMap을 제공한다. 이름에서 알 수 있듯이 TreeSet은 Set컬렉션이고, TreeMap은 Map 컬렉션이다.
+
+TreeSet은 이진 트리를 기반으로 한 Set 컬렉션이다. 이진 트리는 여러개의 노드가 트리
